@@ -1,0 +1,12 @@
+<resources>
+    <string name="search_hint">Search in Flickr</string>
+    <string name="empty_here">Empty here</string>
+    <string name="detail_size">width: %d  height: %d</string>
+    <string name="size">Size</string>
+    <string name="author">Author</string>
+    <string name="description">Description</string>
+    <string name="empty_recent_message">You have no recent searches. Enter a search term above.</string>
+    <string name="ops_error">Oops, something wrong</string>
+    <string name="title_subtitle_accessibility">%s, %s</string>
+    <string name="detail_size_accessibility">width: %d, and height: %d</string>
+</resources>

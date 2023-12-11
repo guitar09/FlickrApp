@@ -1,0 +1,71 @@
+[versions]
+android_gradle_plugin = "7.4.1"
+core_ktx = "1.12.0"
+app_compat = "1.6.1"
+material = "1.8.0"
+koin = "3.4.3"
+kotlin = "1.9.10"
+constraint_layout = "2.1.4"
+coordinator_layout = "1.2.0"
+retrofit = "2.9.0"
+coil = "2.0.0"
+swipe_refresh = "1.1.0"
+lottie = "3.7.0"
+gson = "2.10.1"
+lifecycle = "2.4.0"
+splash = "1.0.1"
+data_store = "1.0.0"
+
+#Tests
+test_junit = "4.13.2"
+test_junitext = "1.1.5"
+test_robolectric = "4.10.3"
+test_truth = "1.1.5"
+espresso = "3.5.1"
+test_core = "1.5.0"
+test_arch_core = "2.1.0"
+test_coroutines = "1.7.3"
+test_runner = "1.5.2"
+test_mockk = "1.13.7"
+test_fragment = "1.5.5"
+
+[libraries]
+androidx_corektx = { module = "androidx.core:core-ktx", version.ref = "core_ktx" }
+androidx_appcompat = { module = "androidx.appcompat:appcompat", version.ref = "app_compat" }
+androidx_material = { module = "com.google.android.material:material", version.ref = "material" }
+androidx_splash = { module = "androidx.core:core-splashscreen", version.ref = "splash" }
+androidx_constraint_layout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraint_layout" }
+androidx_coordinator_layout = { module = "androidx.coordinatorlayout:coordinatorlayout", version.ref = "coordinator_layout" }
+androidx_data_store = { module = "androidx.datastore:datastore-preferences", version.ref = "data_store" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit_converter = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+swipe_refresh = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swipe_refresh" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+viewmodel_ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycle_ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+
+#Test
+test_junit = { module = "junit:junit", version.ref = "test_junit" }
+test_junitext = { module = "androidx.test.ext:junit", version.ref = "test_junitext" }
+test_espresso = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso" }
+koin_core = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+test_koin = { module = "io.insert-koin:koin-android-test", version.ref = "koin" }
+test_koin_junit = { module = "io.insert-koin:koin-test-junit4", version.ref = "koin" }
+test_robolectric = { module = "org.robolectric:robolectric", version.ref = "test_robolectric" }
+test_truth = { module = "com.google.truth:truth", version.ref = "test_truth" }
+test_core = { module = "androidx.test:core", version.ref = "test_core" }
+test_arch_core = { module = "androidx.arch.core:core-testing", version.ref = "test_arch_core" }
+test_coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "test_coroutines" }
+test_runner = { module = "androidx.test:runner", version.ref = "test_runner" }
+test_mockk = { module = "io.mockk:mockk", version.ref = "test_mockk" }
+test_fragment = { module = "androidx.fragment:fragment-testing", version.ref = "test_fragment" }
+
+
+[plugins]
+gradle = { id = "com.android.tools.build:gradle", version.ref = "android_gradle_plugin" }
+android_application = { id = "com.android.application", version.ref = "android_gradle_plugin" }
+android_library = { id = "com.android.library", version.ref = "android_gradle_plugin" }
+kotlin_android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin_parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize",  version.ref = "kotlin"  }

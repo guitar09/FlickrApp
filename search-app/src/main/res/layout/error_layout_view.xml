@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llyError"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lavErrorView"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/empty_ufo"
+        android:layout_width="@dimen/size_dp_200"
+        android:layout_height="@dimen/size_dp_200"
+        android:layout_marginBottom="@dimen/size_dp_14"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ops_error"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
